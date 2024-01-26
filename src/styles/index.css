@@ -1,12 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
 
-/* 
+.text-center {
+    text-align: center;
+    margin: 20px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+h1 {
+    color: #333;
+}
 
-*/
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.task-container {
+    margin-top: 20px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.task span {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.delete-button {
+    background-color: #ff6666;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #e60000;
+}
